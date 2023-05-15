@@ -3,14 +3,6 @@
     "d7af1751-94c8-4abe-a171-61b612567b90": {
       "type": "image-with-text",
       "blocks": {
-        "ff4234d7-ecae-4e01-93b8-3e11db36fca9": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-0": {
           "type": "heading",
           "settings": {
@@ -34,7 +26,6 @@
         }
       },
       "block_order": [
-        "ff4234d7-ecae-4e01-93b8-3e11db36fca9",
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-0",
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-1",
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-2"
@@ -53,9 +44,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "87f02757-67bb-4d87-a94d-846e8223c009": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oana known for",
+            "heading_size": "h1"
+          }
+        },
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>more than 1000+ satisfied sleepers<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0",
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "d7af1751-94c8-4abe-a171-61b612567b90"
+    "d7af1751-94c8-4abe-a171-61b612567b90",
+    "87f02757-67bb-4d87-a94d-846e8223c009"
   ]
 }
