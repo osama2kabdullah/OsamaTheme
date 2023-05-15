@@ -3,6 +3,14 @@
     "d7af1751-94c8-4abe-a171-61b612567b90": {
       "type": "image-with-text",
       "blocks": {
+        "ff4234d7-ecae-4e01-93b8-3e11db36fca9": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-0": {
           "type": "heading",
           "settings": {
@@ -26,11 +34,13 @@
         }
       },
       "block_order": [
+        "ff4234d7-ecae-4e01-93b8-3e11db36fca9",
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-0",
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-1",
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/woman-in-the-city_925x_794430b8-538a-42bb-9c21-4ff0c79b29a1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
