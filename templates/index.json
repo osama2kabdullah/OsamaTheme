@@ -7,14 +7,14 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-1": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-2": {
