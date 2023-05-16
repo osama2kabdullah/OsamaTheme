@@ -27,14 +27,6 @@
             "menu": "support"
           }
         },
-        "footer-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Contact",
-            "subtext": "<p><a href=\"mailto:hello@oanagreen.com\">Mail: hello@oanagreen.com<\/a><\/p><p><a href=\"tel:+31 85-0600437\">Phone: +31 85-0600437<\/a><\/p>"
-          }
-        },
         "9afc6032-4c9a-400a-a975-563fe5b3c01f": {
           "type": "brand_information",
           "settings": {
@@ -46,7 +38,6 @@
         "e63a143e-c776-4c44-8b55-1a3c519b9ae8",
         "footer-0",
         "footer-1",
-        "footer-2",
         "9afc6032-4c9a-400a-a975-563fe5b3c01f"
       ],
       "settings": {
