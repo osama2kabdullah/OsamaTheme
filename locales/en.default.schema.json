@@ -461,13 +461,28 @@
           "label": "Extra large"
         }
       },
+      "caption_size": {
+        "label": "Caption size",
+        "options__1": {
+          "label": "Small"
+        },
+        "options__2": {
+          "label": "Medium"
+        },
+        "options__3": {
+          "label": "Large"
+        }
+      },
       "heading_alignment": {
         "label": "Heading alignment",
         "options__1": {
-          "label": "Center"
+          "label": "Left"
         },
         "options__2": {
-          "label": "Left"
+          "label": "Center"
+        },
+        "options__3": {
+          "label": "Right"
         }
       },
       "image_shape": {
@@ -2491,6 +2506,12 @@
       "settings": {
         "title": {
           "label": "Heading"
+        },
+        "caption": {
+          "label": "Caption"
+        },
+        "sub_title": {
+          "label": "Sub title"
         },
         "image_width": {
           "label": "Image width",
