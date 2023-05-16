@@ -45,6 +45,64 @@
         "padding_bottom": 36
       }
     },
+    "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/step-1.webp",
+            "title": "Step 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/step-2.webp",
+            "title": "Dtep 2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/step-3.webp",
+            "title": "Step 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-0",
+        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-1",
+        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2"
+      ],
+      "settings": {
+        "title": "<h1>Multicolumn<\/h1>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "heading_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "87f02757-67bb-4d87-a94d-846e8223c009": {
       "type": "rich-text",
       "blocks": {
@@ -175,64 +233,6 @@
         "padding_bottom": 36
       }
     },
-    "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/smiling-woman-poses_925x_286d1558-5ed6-4356-b3be-abd9f5942afb.jpg",
-            "title": "Step 1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-in-the-city_925x_794430b8-538a-42bb-9c21-4ff0c79b29a1.jpg",
-            "title": "Dtep 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/man-adjusts-blue-tuxedo-bowtie_925x_2d003efb-3b2a-48e1-89bc-e043674ff2be.jpg",
-            "title": "Step 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-0",
-        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-1",
-        "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2"
-      ],
-      "settings": {
-        "title": "<h1>Multicolumn<\/h1>",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "heading_alignment": "center",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "ecd52d72-88f6-4556-9321-7e617c053a9b": {
       "type": "collapsible-content",
       "blocks": {
@@ -299,10 +299,10 @@
   },
   "order": [
     "d7af1751-94c8-4abe-a171-61b612567b90",
+    "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e",
     "87f02757-67bb-4d87-a94d-846e8223c009",
     "a88c30c8-a923-4f23-83f4-369c0671bd89",
     "f51b772a-6067-4163-9ef7-9e2478513556",
-    "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e",
     "ecd52d72-88f6-4556-9321-7e617c053a9b"
   ]
 }
