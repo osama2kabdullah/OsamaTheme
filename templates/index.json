@@ -71,8 +71,8 @@
         "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 72,
+        "padding_bottom": 80
       }
     },
     "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e": {
@@ -132,8 +132,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 68
       }
     },
     "a88c30c8-a923-4f23-83f4-369c0671bd89": {
@@ -178,8 +178,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 72
       }
     },
     "f51b772a-6067-4163-9ef7-9e2478513556": {
@@ -232,8 +232,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 72
       }
     },
     "ecd52d72-88f6-4556-9321-7e617c053a9b": {
