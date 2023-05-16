@@ -27,9 +27,11 @@
   <div class="page-width section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+        <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+        </div>
+        <div class="rich-text__blocks {{ section.settings.content_alignment }}">
           {{ section.settings.title }}
-        </h2>
+        </div>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
             {{- section.settings.button_label | escape -}}
@@ -190,30 +192,67 @@
   },
   "settings": [
     {
-      "type": "inline_richtext",
+      "type": "richtext",
       "id": "title",
-      "default": "Multicolumn",
+      "default": "<p>Multicolumn</p>",
       "label": "t:sections.multicolumn.settings.title.label"
     },
     {
       "type": "select",
-      "id": "heading_size",
+      "id": "desktop_content_position",
       "options": [
         {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
+          "value": "left",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
         },
         {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "value": "center",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
         },
         {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
+          "value": "right",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
         }
       ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "default": "center",
+      "label": "t:sections.rich-text.settings.desktop_content_position.label",
+      "info": "t:sections.rich-text.settings.desktop_content_position.info"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "center",
+          "label": "t:sections.all.heading_alignment.options__1.label"
+        },
+        {
+          "value": "left",
+          "label": "t:sections.all.heading_alignment.options__2.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.all.heading_alignment.label"
     },
     {
       "type": "select",
