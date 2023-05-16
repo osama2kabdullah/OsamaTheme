@@ -1,0 +1,31 @@
+{
+  "name": "osamatheme",
+  "version": "0.1.0",
+  "description": "This is a shopify theme Dawn. I just customizing it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "shopify theme dev",
+    "watch": "npx tailwind -i ./assets/tailwind.css -o ./assets/application.css --watch",
+    "dev": "npm run start & npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osama2kabdullah/OsamaTheme.git"
+  },
+  "keywords": [
+    "shopify-theme",
+    "dawn-theme",
+    "osama-theme"
+  ],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/osama2kabdullah/OsamaTheme/issues"
+  },
+  "homepage": "https://github.com/osama2kabdullah/OsamaTheme#readme",
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.0.6",
+    "tailwindcss": "^3.3.2"
+  }
+}
