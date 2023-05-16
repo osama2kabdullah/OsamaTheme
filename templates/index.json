@@ -144,7 +144,7 @@
           "settings": {
             "caption": "Add a tagline",
             "text_style": "subtitle",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-0": {
@@ -189,8 +189,8 @@
           "type": "caption",
           "settings": {
             "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         },
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-0": {
