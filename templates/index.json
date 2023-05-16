@@ -115,9 +115,12 @@
         "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2"
       ],
       "settings": {
-        "title": "<h1>Multicolumn<\/h1>",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "caption": "Caption",
+        "caption_size": "h2",
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "sub_title": "Multicolumn subtitle",
+        "sub_heading_size": "h2",
         "heading_alignment": "center",
         "image_width": "full",
         "image_ratio": "circle",
