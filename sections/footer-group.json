@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "e63a143e-c776-4c44-8b55-1a3c519b9ae8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/red-plaid-shirt_925x_0ea42fa0-c184-4ca1-b5ab-41082dca97a3.jpg",
+            "image_width": 550,
+            "alignment": "center"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -28,6 +36,7 @@
         }
       },
       "block_order": [
+        "e63a143e-c776-4c44-8b55-1a3c519b9ae8",
         "footer-0",
         "footer-1",
         "footer-2"
