@@ -446,6 +446,21 @@
           "label": "Extra large"
         }
       },
+      "sub_heading_size": {
+        "label": "Sub Heading size",
+        "options__1": {
+          "label": "Small"
+        },
+        "options__2": {
+          "label": "Medium"
+        },
+        "options__3": {
+          "label": "Large"
+        },
+        "options__4": {
+          "label": "Extra large"
+        }
+      },
       "heading_alignment": {
         "label": "Heading alignment",
         "options__1": {
@@ -3132,6 +3147,9 @@
           "options__3": {
             "label": "Right"
           }
+        },
+        "sub_heading": {
+          "label": "Sub Heading"
         },
         "layout": {
           "label": "Layout",
