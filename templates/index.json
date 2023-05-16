@@ -143,7 +143,7 @@
           "type": "caption",
           "settings": {
             "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
+            "text_style": "subtitle",
             "text_size": "medium"
           }
         },
@@ -151,14 +151,14 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-1": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
