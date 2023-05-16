@@ -188,7 +188,7 @@
         "ae9513b4-dd88-4386-bf5f-d010c78457b2": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "Our story",
             "text_style": "subtitle",
             "text_size": "large"
           }
@@ -196,14 +196,14 @@
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h0"
+            "heading": "<strong>A good night's sleep, not a luxury but a necessity<\/strong>",
+            "heading_size": "h1"
           }
         },
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>At Oana Green, we are fully committed to giving you a better life through better sleep. We go a step further than the rest and like to do things differently.<\/p><p>Your night's sleep comes first with us because we know how important this is for your physical and mental health.<\/p>",
             "text_style": "subtitle"
           }
         },
