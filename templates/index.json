@@ -92,20 +92,22 @@
             "text_style": "body"
           }
         },
-        "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-2": {
-          "type": "button",
+        "9709ef27-75b2-414f-bb38-29d2188660c0": {
+          "type": "caption",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-0",
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-1",
-        "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-2"
+        "9709ef27-75b2-414f-bb38-29d2188660c0"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/womens-red-t-shirt_925x_f1cdac6e-fc6d-4752-ad26-0186d32684bd.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
