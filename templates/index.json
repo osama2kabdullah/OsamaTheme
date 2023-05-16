@@ -281,9 +281,9 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "<strong>FAQ<\/strong>",
         "heading_size": "h1",
-        "sub_heading": "Collapsible sub content",
+        "sub_heading": "Frequenly ask qoustion",
         "sub_heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
