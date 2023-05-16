@@ -83,7 +83,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/step-1.webp",
             "title": "Step 1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Remove the patch from the sheet.This is easiest with a corner of the patch.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -93,7 +93,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/step-2.webp",
             "title": "Step 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Stick the patch on a vein-rich part of your body about one hour before going to sleep.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -103,7 +103,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/step-3.webp",
             "title": "Step 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Get ready for bed and enjoy a better night's sleep, so you wake up rested.<\/p>",
             "link_label": "",
             "link": ""
           }
