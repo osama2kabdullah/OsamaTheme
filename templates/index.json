@@ -141,7 +141,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>sasasassssa<\/p>",
             "page": ""
           }
         },
@@ -150,7 +150,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>sasasas<\/p>",
             "page": ""
           }
         },
@@ -159,7 +159,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>sasasasass<\/p>",
             "page": ""
           }
         },
@@ -168,7 +168,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>sasasasasasasasasa<\/p>",
             "page": ""
           }
         }
