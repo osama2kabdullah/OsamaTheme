@@ -45,6 +45,36 @@
         "padding_bottom": 36
       }
     },
+    "87f02757-67bb-4d87-a94d-846e8223c009": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oana known for",
+            "heading_size": "h1"
+          }
+        },
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>more than 1000+ satisfied sleepers<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0",
+        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e": {
       "type": "multicolumn",
       "blocks": {
@@ -103,36 +133,6 @@
         "padding_bottom": 36
       }
     },
-    "87f02757-67bb-4d87-a94d-846e8223c009": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Oana known for",
-            "heading_size": "h1"
-          }
-        },
-        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>more than 1000+ satisfied sleepers<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0",
-        "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "a88c30c8-a923-4f23-83f4-369c0671bd89": {
       "type": "image-with-text",
       "blocks": {
@@ -165,7 +165,7 @@
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/womens-red-t-shirt_925x_f1cdac6e-fc6d-4752-ad26-0186d32684bd.jpg",
+        "image": "shopify:\/\/shop_images\/image-2.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -219,7 +219,7 @@
         "987527ff-6dc4-4989-8d87-521ff317a360"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/urban-fashion_925x_0a1b204c-9d14-4f02-b616-f404e51e7f04.jpg",
+        "image": "shopify:\/\/shop_images\/image-3.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -299,8 +299,8 @@
   },
   "order": [
     "d7af1751-94c8-4abe-a171-61b612567b90",
-    "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e",
     "87f02757-67bb-4d87-a94d-846e8223c009",
+    "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e",
     "a88c30c8-a923-4f23-83f4-369c0671bd89",
     "f51b772a-6067-4163-9ef7-9e2478513556",
     "ecd52d72-88f6-4556-9321-7e617c053a9b"
