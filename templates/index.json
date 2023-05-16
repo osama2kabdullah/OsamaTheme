@@ -242,16 +242,16 @@
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can you use the patches every day?",
             "icon": "none",
-            "row_content": "<p>sasasassssa<\/p>",
+            "row_content": "<p>sasasassssawasa<\/p>",
             "page": ""
           }
         },
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why don't you use melatonin?",
             "icon": "none",
             "row_content": "<p>sasasas<\/p>",
             "page": ""
@@ -260,18 +260,9 @@
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How long does the sleeping patch work?",
             "icon": "none",
-            "row_content": "<p>sasasasass<\/p>",
-            "page": ""
-          }
-        },
-        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "none",
-            "row_content": "<p>sasasasasasasasasa<\/p>",
+            "row_content": "<p>The ingredients in the sleeping patch are released over a period of about 8-10 hours and absorbed through the skin into the bloodstream.So you can enjoy it all night long.<\/p>",
             "page": ""
           }
         }
@@ -279,8 +270,7 @@
       "block_order": [
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-0",
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-1",
-        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-2",
-        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-3"
+        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-2"
       ],
       "settings": {
         "caption": "",
