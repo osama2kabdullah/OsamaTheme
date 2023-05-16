@@ -30,8 +30,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Contact",
+            "subtext": "<p><a href=\"mailto:hello@oanagreen.com\">Mail: hello@oanagreen.com<\/a><\/p><p><a href=\"tel:+31 85-0600437\">Phone: +31 85-0600437<\/a><\/p>"
           }
         }
       },
