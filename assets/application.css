@@ -580,6 +580,10 @@ video {
   margin: auto;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -656,6 +660,10 @@ video {
   cursor: pointer;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -668,6 +676,18 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-5 {

@@ -19,8 +19,8 @@
       display: none;
     }
     .heading-card {
-    display: block
-  }
+      display: block
+    }
   }
 {%- endstyle -%}
 
@@ -76,7 +76,10 @@
         >
           <!-- ned to disable hover -->
 
-          <div style="text-align: {{ section.settings.heading_alignment }};" class="multicolumn-card content-container">
+          <div
+            style="text-align: {{ section.settings.heading_alignment }};"
+            class=""
+          >
             {%- if section.settings.caption != blank -%}
               <h2 class="{{section.settings.caption_size}}">{{ section.settings.caption }}</h2>
             {% endif %}
@@ -135,7 +138,7 @@
                 role="link" aria-disabled="false"
               {% endif %}
             >
-              <div class="multicolumn-card content-container">
+              <div class="multicolumn-card ">
                 {%- if block.settings.image != blank -%}
                   {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                     {% assign spaced_image = true %}
