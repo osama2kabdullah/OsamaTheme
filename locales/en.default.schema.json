@@ -2509,6 +2509,12 @@
         },
         "hover_effect": {
           "label": "Enable hover effect"
+        },
+        "caption": {
+          "label": "Caption"
+        },
+        "title": {
+          "label": "Title"
         }
       },
       "blocks": {
@@ -2517,9 +2523,6 @@
           "settings": {
             "icon": {
               "label": "Icon"
-            },
-            "caption": {
-              "label": "Caption"
             },
             "title": {
               "label": "Title"
