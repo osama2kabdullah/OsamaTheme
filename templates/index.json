@@ -6,14 +6,14 @@
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h0"
+            "heading": "<strong>The revolutionary sleep patches from Oana<\/strong>",
+            "heading_size": "h1"
           }
         },
         "template--19119104196920__d7af1751-94c8-4abe-a171-61b612567b90-16841720934067e6c0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Our unique sleeping patch contains<strong>100% natural ingredients<\/strong>and has been developed toprovide the restful sleep you deserve<strong>in a safe<\/strong>and<strong>effective way.<\/strong><\/p>",
             "text_style": "subtitle"
           }
         },
@@ -41,7 +41,7 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -69,10 +69,10 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 72,
+        "padding_bottom": 80
       }
     },
     "87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e": {
@@ -82,30 +82,33 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step-1.webp",
-            "title": "Step 1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<strong>Step 1<\/strong>",
+            "icon": "shopify:\/\/shop_images\/icon-1.gif",
+            "text": "<p>Remove the patch from the sheet.This is easiest with a corner of the patch.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/blogs\/blogs"
           }
         },
         "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step-2.webp",
-            "title": "Step 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<strong>Step 2<\/strong>",
+            "icon": "shopify:\/\/shop_images\/icon-2.gif",
+            "text": "<p>Stick the patch on a vein-rich part of your body about one hour before going to sleep.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/contact"
           }
         },
         "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step-3.webp",
-            "title": "Step 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<strong>Step 3<\/strong>",
+            "icon": "shopify:\/\/shop_images\/icon-3.gif",
+            "text": "<p>Get ready for bed and enjoy a better night's sleep, so you wake up rested.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/faq"
           }
         }
       },
@@ -115,11 +118,11 @@
         "template--19119104196920__87b91f0e-8698-4ecb-a191-b2c5a8a2bf9e-1684173102c728871a-2"
       ],
       "settings": {
-        "caption": "Caption",
+        "caption": "Peel, Stick & Sleep",
         "caption_size": "h2",
-        "title": "Multicolumn",
+        "title": "<strong>Three simple steps<\/strong>",
         "heading_size": "h1",
-        "sub_title": "Multicolumn subtitle",
+        "sub_title": "Why make it difficult when it can be easy?",
         "sub_heading_size": "h2",
         "heading_alignment": "center",
         "image_width": "full",
@@ -132,8 +135,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 68
       }
     },
     "a88c30c8-a923-4f23-83f4-369c0671bd89": {
@@ -142,23 +145,23 @@
         "9709ef27-75b2-414f-bb38-29d2188660c0": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "caption": "Science",
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         },
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "<strong>Revolutionary sleeping patch<\/strong>",
+            "heading_size": "h0"
           }
         },
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text": "<p>Our sleeping patches contribute to optimal sleep.<\/p><p>The ingredients are absorbed directly into the bloodstream, just like with nicotine patches. Without breakdown by the liver.<\/p><p>Our unique and 100% natural formula has been carefully formulated to help you enjoy the day with more energy<\/p>",
+            "text_style": "subtitle"
           }
         }
       },
@@ -168,18 +171,18 @@
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image-2.webp",
+        "image": "shopify:\/\/shop_images\/image-2.png",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 72
       }
     },
     "f51b772a-6067-4163-9ef7-9e2478513556": {
@@ -188,26 +191,26 @@
         "ae9513b4-dd88-4386-bf5f-d010c78457b2": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "caption": "Our story",
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         },
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>A good night's sleep, not a luxury but a necessity<\/strong>",
             "heading_size": "h1"
           }
         },
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text": "<p>At Oana Green, we are fully committed to giving you a better life through better sleep. We go a step further than the rest and like to do things differently.<\/p><p>Your night's sleep comes first with us because we know how important this is for your physical and mental health.<\/p>",
+            "text_style": "subtitle"
           }
         },
-        "987527ff-6dc4-4989-8d87-521ff317a360": {
+        "94ff9075-e353-432c-89e8-c1f505007409": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
@@ -219,11 +222,11 @@
         "ae9513b4-dd88-4386-bf5f-d010c78457b2",
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-0",
         "template--19119104196920__f51b772a-6067-4163-9ef7-9e2478513556-168421382009f4474d-1",
-        "987527ff-6dc4-4989-8d87-521ff317a360"
+        "94ff9075-e353-432c-89e8-c1f505007409"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image-3.webp",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/image-3.png",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -232,8 +235,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 72
       }
     },
     "ecd52d72-88f6-4556-9321-7e617c053a9b": {
@@ -242,36 +245,27 @@
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can you use the patches every day?",
             "icon": "none",
-            "row_content": "<p>sasasassssa<\/p>",
+            "row_content": "<p>Sure. A better night's sleep without chemical and addictive substances or hormones!<\/p><p>Inspired by nature, formulated for you.<\/p>",
             "page": ""
           }
         },
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why don't you use melatonin?",
             "icon": "none",
-            "row_content": "<p>sasasas<\/p>",
+            "row_content": "<p>We prefer to leave your hormone balance alone. Large-scale research has also shown that melatonin has no added value for sleep quality.<\/p><p>We let nature do its job.<\/p>",
             "page": ""
           }
         },
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How long does the sleeping patch work?",
             "icon": "none",
-            "row_content": "<p>sasasasass<\/p>",
-            "page": ""
-          }
-        },
-        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "none",
-            "row_content": "<p>sasasasasasasasasa<\/p>",
+            "row_content": "<p>The ingredients in the sleeping patch are released over a period of about 8-10 hours and absorbed through the skin into the bloodstream.So you can enjoy it all night long.<\/p>",
             "page": ""
           }
         }
@@ -279,24 +273,23 @@
       "block_order": [
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-0",
         "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-1",
-        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-2",
-        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-3"
+        "template--19119104196920__ecd52d72-88f6-4556-9321-7e617c053a9b-16842116990b13a334-2"
       ],
       "settings": {
         "caption": "",
         "heading": "<strong>FAQ<\/strong>",
         "heading_size": "h1",
-        "sub_heading": "Frequenly ask qoustion",
+        "sub_heading": "<strong>Frequently Asked Questions<\/strong>",
         "sub_heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 84,
+        "padding_bottom": 76
       }
     }
   },

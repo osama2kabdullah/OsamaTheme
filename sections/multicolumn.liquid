@@ -25,36 +25,35 @@
 
 <div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding isolate">
+    <div class="" style="text-align: {{ section.settings.heading_alignment }};">
+      {%- if section.settings.caption != blank -%}
+        <h2 class="{{section.settings.caption_size}}">{{ section.settings.caption }}</h2>
+      {% endif %}
 
-    
-      <div class="" style="text-align: {{ section.settings.heading_alignment }};">
+      {%- if section.settings.title != blank -%}
+        <h2 class=" {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+      {%- else -%}
+        <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
+      {% endif %}
 
-        {%- if section.settings.caption != blank -%}
-          <h2 class="{{section.settings.caption_size}}">{{ section.settings.caption | escape }}</h2>
-        {% endif %}
+      {%- if section.settings.sub_title != blank -%}
+        <h2 class=" {{ section.settings.sub_heading_size }}">
+          {{ section.settings.sub_title }}
+        </h2>
+      {%- else -%}
+        <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
+      {% endif %}
 
-        {%- if section.settings.title != blank -%}
-          <h2 class=" {{ section.settings.heading_size }}">
-            {{ section.settings.title }}
-          </h2>
-        {%- else -%}
-          <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
-        {% endif %}
+      {%- if section.settings.button_label != blank and show_mobile_slider -%}
+        <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
+          {{- section.settings.button_label | escape -}}
+        </a>
+      {%- endif -%}
+    </div>
 
-        {%- if section.settings.sub_title != blank -%}
-          <h2 class=" {{ section.settings.sub_heading_size }}">
-            {{ section.settings.sub_title }}
-          </h2>
-        {%- else -%}
-          <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
-        {% endif %}
-
-        {%- if section.settings.button_label != blank and show_mobile_slider -%}
-          <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
-            {{- section.settings.button_label | escape -}}
-          </a>
-        {%- endif -%}
-      </div>
+    <br>
 
     <slider-component class="slider-mobile-gutter">
       <ul
@@ -92,7 +91,7 @@
                 {% endif %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   <div
-                    class="media media--transparent media--{{ section.settings.image_ratio }}"
+                    class="media multi-column-image media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}
@@ -117,16 +116,42 @@
                       (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
                       calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
                     {% endcapture %}
-                    {{
-                      block.settings.image
-                      | image_url: width: 3200
-                      | image_tag:
-                        loading: 'lazy',
+
+                    {% if block.settings.link != blank %}
+                      <a href="{{block.settings.link}}">
+                        {{
+                          block.settings.image
+                          | image_url: width: 3200
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                            sizes: sizes,
+                            class: 'multicolumn-card__image'
+                        }}
+                      </a>
+                    {% else %}
+                      {{
+                        block.settings.image
+                        | image_url: width: 3200
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                          sizes: sizes,
+                          class: 'multicolumn-card__image'
+                      }}
+                    {% endif %}
+                  </div>
+                  {% if block.settings.icon != blank %}
+                    <div>
+                      {{
+                        block.settings.icon | image_url: width: 3200
+                        | image_tag: loading: 'lazy',
                         widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
                         sizes: sizes,
-                        class: 'multicolumn-card__image'
-                    }}
-                  </div>
+                        class: 'multicolumn-card__icon'
+                      }}
+                    </div>
+                  {% endif %}
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
@@ -496,6 +521,11 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:sections.multicolumn.blocks.column.settings.icon.label"
         },
         {
           "type": "richtext",
