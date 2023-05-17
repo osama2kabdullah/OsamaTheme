@@ -139,6 +139,17 @@
                       }}
                     {% endif %}
                   </div>
+                  {% if block.settings.icon != blank %}
+                    <div>
+                      {{
+                        block.settings.icon | image_url: width: 3200
+                        | image_tag: loading: 'lazy',
+                        widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                        sizes: sizes,
+                        class: 'multicolumn-card__icon'
+                      }}
+                    </div>
+                  {% endif %}
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
@@ -510,32 +521,9 @@
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
         },
         {
-          "type": "select",
-          "id": "color_scheme",
-          "options": [
-            {
-              "value": "accent-1",
-              "label": "t:sections.all.colors.accent_1.label"
-            },
-            {
-              "value": "accent-2",
-              "label": "t:sections.all.colors.accent_2.label"
-            },
-            {
-              "value": "background-1",
-              "label": "t:sections.all.colors.background_1.label"
-            },
-            {
-              "value": "background-2",
-              "label": "t:sections.all.colors.background_2.label"
-            },
-            {
-              "value": "inverse",
-              "label": "t:sections.all.colors.inverse.label"
-            }
-          ],
-          "default": "background-1",
-          "label": "t:sections.all.colors.label"
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:sections.multicolumn.blocks.column.settings.icon.label"
         },
         {
           "type": "richtext",
