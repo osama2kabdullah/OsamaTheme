@@ -41,6 +41,8 @@
           {% endif %}
         </div>
 
+        <br>
+
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}">
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
@@ -346,7 +348,7 @@
       "name": "t:sections.collapsible_content.blocks.collapsible_row.name",
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "heading",
           "default": "Collapsible row",
           "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.label",
