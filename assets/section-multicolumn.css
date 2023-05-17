@@ -155,7 +155,7 @@
 
 .multicolumn-card__image-wrapper {
   position: relative;
-  padding-bottom: 2.5em;
+  /* padding-bottom: 2.5em; */
 }
 
 .multicolumn-card__icon {
