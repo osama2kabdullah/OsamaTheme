@@ -2501,6 +2501,45 @@
         }
       }
     },
+    "one-row": {
+      "name": "One row",
+      "settings": {
+        "card_border_redius": {
+          "label": "Card Border redius"
+        },
+        "hover_effect": {
+          "label": "Enable hover effect"
+        },
+        "caption": {
+          "label": "Caption"
+        },
+        "title": {
+          "label": "Title"
+        }
+      },
+      "blocks": {
+        "row": {
+          "name": "Row",
+          "settings": {
+            "icon": {
+              "label": "Icon"
+            },
+            "title": {
+              "label": "Title"
+            },
+            "redirect_link": {
+              "label": "Redirect URL"
+            },
+            "text": {
+              "label": "Text"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "One row"
+      }
+    },
     "multicolumn": {
       "name": "Multicolumn",
       "settings": {
@@ -2883,6 +2922,14 @@
           "settings": {
             "heading": {
               "label": "Heading"
+            }
+          }
+        },
+        "image": {
+          "name": "Image",
+          "settings": {
+            "image": {
+              "label": "Image"
             }
           }
         },
