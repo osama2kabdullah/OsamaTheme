@@ -148,7 +148,9 @@
 
 .multicolumn-card__image-wrapper {
   position: relative;
+  padding-bottom: 2.5em;
 }
+
 .multicolumn-card__icon {
   width: 25%;
   border-radius: 100%;
