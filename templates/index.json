@@ -55,6 +55,18 @@
             "heading_size": "h1"
           }
         },
+        "8d77dd66-8396-4a97-af1d-ef6366924a0a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_review_bedrijven.webp"
+          }
+        },
+        "aa36c775-9697-4783-afcd-df1931ba1529": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/starts.png"
+          }
+        },
         "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1": {
           "type": "text",
           "settings": {
@@ -64,6 +76,8 @@
       },
       "block_order": [
         "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-0",
+        "8d77dd66-8396-4a97-af1d-ef6366924a0a",
+        "aa36c775-9697-4783-afcd-df1931ba1529",
         "template--19119104196920__87f02757-67bb-4d87-a94d-846e8223c009-1684173039e6c3763a-1"
       ],
       "settings": {
