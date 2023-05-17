@@ -18,6 +18,9 @@
     .heading-non-card {
       display: none;
     }
+    .heading-card {
+    display: block
+  }
   }
 {%- endstyle -%}
 
@@ -71,7 +74,7 @@
           id="Slide-{{ section.id }}-{{ forloop.index }}"
           class="heading-card multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}"
         >
-          <div style="text-align: {{ section.settings.heading_alignment }};" class="multicolumn-card content-container">
+          <div style="text-align: left;" class="multicolumn-card content-container">
             {%- if section.settings.caption != blank -%}
               <h2 class="{{section.settings.caption_size}}">{{ section.settings.caption }}</h2>
             {% endif %}
