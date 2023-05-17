@@ -154,7 +154,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Revolutionary sleeping patch<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--19119104196920__a88c30c8-a923-4f23-83f4-369c0671bd89-168421382009f4474d-1": {
@@ -177,7 +177,7 @@
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
