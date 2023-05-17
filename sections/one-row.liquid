@@ -1,0 +1,161 @@
+{% schema %}
+{
+  "name": "t:sections.one-row.name",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "range",
+      "id": "card_border_redius",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 3,
+      "label": "t:sections.one-row.settings.card_border_redius.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hover_effect",
+      "default": false,
+      "label": "t:sections.one-row.settings.hover_effect.label"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 5,
+      "label": "t:sections.multicolumn.settings.columns_desktop.label"
+    },
+    {
+      "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+        }
+      ],
+      "default": "primary",
+      "label": "t:sections.multicolumn.settings.background_style.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "t:sections.one-row.blocks.row.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "caption",
+          "default": "Caption",
+          "label": "t:sections.one-row.blocks.row.settings.caption.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:sections.one-row.blocks.row.settings.icon.label"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "default": "Title",
+          "label": "t:sections.one-row.blocks.row.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "url",
+          "id": "redirect_link",
+          "label": "t:sections.one-row.blocks.row.settings.redirect_link.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.one-row.blocks.row.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "content_alignment",
+          "label": "t:sections.all.heading_alignment.label",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.all.heading_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.all.heading_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.all.heading_alignment.options__3.label"
+            }
+          ],
+          "default": "center"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.one-row.presets.name"
+    }
+  ]
+}
+{% endschema %}

@@ -644,10 +644,6 @@ video {
   display: none;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .border-collapse {
   border-collapse: collapse;
 }
