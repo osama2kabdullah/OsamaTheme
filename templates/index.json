@@ -363,7 +363,7 @@
         "heading_size": "h1",
         "sub_title": "",
         "sub_heading_size": "h1",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 5,
