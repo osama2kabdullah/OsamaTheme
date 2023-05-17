@@ -82,7 +82,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step-1.webp",
-            "title": "Step 1",
+            "title": "<strong>Step 1<\/strong>",
+            "color_scheme": "background-1",
             "text": "<p>Remove the patch from the sheet.This is easiest with a corner of the patch.<\/p>",
             "link_label": "",
             "link": ""
@@ -92,7 +93,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step-2.webp",
-            "title": "Step 2",
+            "title": "<strong>Step 2<\/strong>",
+            "color_scheme": "background-1",
             "text": "<p>Stick the patch on a vein-rich part of your body about one hour before going to sleep.<\/p>",
             "link_label": "",
             "link": ""
@@ -102,7 +104,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step-3.webp",
-            "title": "Step 3",
+            "title": "<strong>Step 3<\/strong>",
+            "color_scheme": "background-1",
             "text": "<p>Get ready for bed and enjoy a better night's sleep, so you wake up rested.<\/p>",
             "link_label": "",
             "link": ""
