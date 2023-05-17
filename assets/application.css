@@ -576,6 +576,10 @@ video {
   isolation: isolate;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .block {
   display: block;
 }
@@ -638,6 +642,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .border-collapse {

@@ -2886,6 +2886,14 @@
             }
           }
         },
+        "image": {
+          "name": "Image",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
+        },
         "caption": {
           "name": "Caption",
           "settings": {
