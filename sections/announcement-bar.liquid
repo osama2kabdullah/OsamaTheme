@@ -1,14 +1,3 @@
-{% style %}
-.slider-container {
-}
-
-.slider-custom {
-}
-
-.slick-slide {
-}
-{% endstyle %}
-
 <div class="slider-container">
 
 {%- for block in section.blocks -%}
@@ -37,6 +26,7 @@
 
 </div>
 
+{% if section.settings.slideshow %}
 {{ 'jquery-1.11.0.min.js' | asset_url | script_tag }}
 {{ 'jquery-migrate-1.2.1.min.js' | asset_url | script_tag }}
 {{ 'slick.min.js' | asset_url | script_tag }}
@@ -45,12 +35,21 @@
     autoplay: true,
   });
 </script>
+{% endif %}
 
 {% schema %}
 {
   "name": "t:sections.announcement-bar.name",
   "max_blocks": 12,
   "class": "announcement-bar-section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "slideshow",
+      "label": "t:sections.announcement-bar.settings.slideshow.label",
+      "default": true
+    }
+  ],
   "blocks": [
     {
       "type": "announcement",
