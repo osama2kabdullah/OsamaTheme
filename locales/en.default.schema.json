@@ -516,6 +516,11 @@
     },
     "announcement-bar": {
       "name": "Announcement bar",
+      "settings": {
+        "slideshow": {
+          "label": "Slideshow"
+        }
+      },
       "blocks": {
         "announcement": {
           "name": "Announcement",
