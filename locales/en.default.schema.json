@@ -141,6 +141,14 @@
           "label": "Text",
           "info": "Used as foreground color on background colors."
         },
+        "colors_heading": {
+          "label": "Heading",
+          "info": "Used as foreground color on background colors."
+        },
+        "colors_subheading": {
+          "label": "Sub heading",
+          "info": "Used as foreground color on background colors."
+        },
         "colors_outline_button_labels": {
           "label": "Outline button",
           "info": "Also used for text links."

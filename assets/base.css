@@ -133,10 +133,6 @@
   --color-card-hover: var(--color-base-background-1);
 }
 
-.color-accent-1 {
-  /* color: red; */
-}
-
 .color-accent-1,
 .color-accent-2 {
   --color-card-hover: var(--color-base-solid-button-labels);
@@ -261,6 +257,8 @@ html.no-js .no-js-hidden {
   padding: 0;
   margin: 0 auto;
 }
+
+
 
 @media screen and (min-width: 750px) {
   .page-width {
@@ -1033,6 +1031,7 @@ summary::-webkit-details-marker {
 .subtitle--small {
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
+  color: red;
 }
 
 .subtitle--medium {
