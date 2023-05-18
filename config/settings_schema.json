@@ -83,20 +83,6 @@
       },
       {
         "type": "color",
-        "id": "colors_heading",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_heading.label",
-        "info": "t:settings_schema.colors.settings.colors_heading.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_subheading",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_subheading.label",
-        "info": "t:settings_schema.colors.settings.colors_heading.info"
-      },
-      {
-        "type": "color",
         "id": "colors_outline_button_labels",
         "default": "#121212",
         "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
