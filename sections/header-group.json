@@ -13,10 +13,30 @@
             "color_scheme": "background-2",
             "link": ""
           }
+        },
+        "cd6073e9-74ed-4836-be3a-fa3eec11b63a": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "background-2",
+            "link": ""
+          }
+        },
+        "23f8413d-ab53-4f0e-b11c-f486f2fa94d0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "background-2",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "cd6073e9-74ed-4836-be3a-fa3eec11b63a",
+        "23f8413d-ab53-4f0e-b11c-f486f2fa94d0"
       ],
       "settings": {
         "slideshow": true
