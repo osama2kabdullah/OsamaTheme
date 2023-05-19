@@ -2,6 +2,16 @@
   "settings_schema": {
     "global": {
       "settings": {
+        "header__verients": {
+          "content": "Verients"
+        },
+        "button_verients": {
+          "label": "Button verients",
+          "options": {
+            "option_1": "Outline",
+            "option_2": "Solid"
+          }
+        },
         "header__border": {
           "content": "Border"
         },

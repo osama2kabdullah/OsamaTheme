@@ -228,6 +228,26 @@
     "settings": [
       {
         "type": "header",
+        "content": "t:settings_schema.global.settings.header__verients.content"
+      },
+      {
+        "type": "radio",
+        "id": "button_verients",
+        "label": "t:settings_schema.global.settings.button_verients.label",
+        "options": [
+          {
+            "value": "outline",
+            "label": "t:settings_schema.global.settings.button_verients.options.option_1"
+          },
+          {
+            "value": "solid",
+            "label": "t:settings_schema.global.settings.button_verients.options.option_2"
+          }
+        ],
+        "default": "outline"
+      },      
+      {
+        "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
       },
       {
