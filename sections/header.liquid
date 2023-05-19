@@ -205,6 +205,11 @@
       {%- endif -%}
     {%- endif -%}
 
+    {%- if section.settings.logo_position == 'menu-center' -%}
+
+      <h2 class="h2">{{shop.name}}</h2>
+      {% else %}
+
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
@@ -214,6 +219,8 @@
         endif
       endif
     %}
+
+  {% endif %}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -269,7 +276,9 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {%- if section.settings.show_search -%}
+        {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {%- endif -%}
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
@@ -496,6 +505,10 @@
         {
           "value": "middle-center",
           "label": "t:sections.header.settings.logo_position.options__4.label"
+        },
+        {
+          "value": "menu-center",
+          "label": "t:sections.header.settings.logo_position.options__5.label"
         }
       ],
       "default": "middle-left",
@@ -558,6 +571,12 @@
       "id": "show_line_separator",
       "default": true,
       "label": "t:sections.header.settings.show_line_separator.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_search",
+      "default": false,
+      "label": "t:sections.header.settings.show_search.label"
     },
     {
       "type": "select",
