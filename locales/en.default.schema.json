@@ -1129,6 +1129,9 @@
           },
           "options__4": {
             "label": "Middle center"
+          },
+          "options__5": {
+            "label": "Menu center"
           }
         },
         "menu": {
@@ -1149,6 +1152,9 @@
         },
         "show_line_separator": {
           "label": "Show separator line"
+        },
+        "show_search": {
+          "label": "Show search icon"
         },
         "sticky_header_type": {
           "label": "Sticky header",
