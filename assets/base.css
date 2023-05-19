@@ -133,6 +133,10 @@
   --color-card-hover: var(--color-base-background-1);
 }
 
+.color-accent-1 {
+  /* color: red; */
+}
+
 .color-accent-1,
 .color-accent-2 {
   --color-card-hover: var(--color-base-solid-button-labels);
@@ -1384,6 +1388,12 @@ button.shopify-payment-button__button--unbranded {
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
+
+/*
+1. --color-button
+2. --color-button-text
+3. --alpha-button-background
+*/
 
 .button:before,
 .shopify-challenge__button:before,

@@ -1,3 +1,17 @@
+{% style %}
+.slider-container {
+  width: 100%
+}
+
+.slider-custom {
+}
+
+.slick-slide {
+}
+{% endstyle %}
+
+<div class="slider-container">
+
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
@@ -6,8 +20,8 @@
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
-              <div class="page-width">
-                <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+              <div class="">
+                <p class="announcement-bar__message {{ block.settings.text_alignment }} h3">
                   <span>{{ block.settings.text | escape }}</span>
                   {%- if block.settings.link != blank -%}
                     {% render 'icon-arrow' %}
@@ -21,6 +35,15 @@
       </div>
   {%- endcase -%}
 {%- endfor -%}
+
+</div>
+
+{{ 'jquery-1.11.0.min.js' | asset_url | script_tag }}
+{{ 'jquery-migrate-1.2.1.min.js' | asset_url | script_tag }}
+{{ 'slick.min.js' | asset_url | script_tag }}
+<script type="text/javascript">
+  $('.slider-container').slick();
+</script>
 
 {% schema %}
 {
