@@ -2415,7 +2415,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__heading,
 .header__heading-link {
-  grid-area: heading;
+  /* grid-area: heading; */
   justify-self: center;
 }
 
