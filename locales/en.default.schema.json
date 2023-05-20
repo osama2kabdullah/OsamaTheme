@@ -1530,6 +1530,18 @@
             },
             "button_link": {
               "label": "Button link"
+            },
+            "header": {
+              "content": "Style"
+            },
+            "top_bottom_padding": {
+              "label": "Top bottom padding"
+            },
+            "left_right_padding": {
+              "label": "Left right padding"
+            },
+            "color": {
+              "label": "Background Color"
             }
           }
         }
@@ -2619,6 +2631,14 @@
           },
           "options__2": {
             "label": "Center"
+          }
+        },
+        "button_animation": {
+          "label": "Button animation",
+          "options": {
+            "options_1": "From bottom",
+            "options_2": "From top",
+            "options_3": "None"
           }
         },
         "background_style": {
