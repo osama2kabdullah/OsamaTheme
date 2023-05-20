@@ -27,7 +27,7 @@
   <div class="page-width section-{{ section.id }}-padding isolate">
     <div class="" style="text-align: {{ section.settings.heading_alignment }};">
       {%- if section.settings.caption != blank -%}
-        <h2 class="{{section.settings.caption_size}}">{{ section.settings.caption }}</h2>
+        <h2 class="sub-heading {{section.settings.caption_size}}">{{ section.settings.caption }}</h2>
       {% endif %}
 
       {%- if section.settings.title != blank -%}
@@ -39,7 +39,7 @@
       {% endif %}
 
       {%- if section.settings.sub_title != blank -%}
-        <h2 class=" {{ section.settings.sub_heading_size }}">
+        <h2 class="sub-heading {{ section.settings.sub_heading_size }}">
           {{ section.settings.sub_title }}
         </h2>
       {%- else -%}
@@ -156,7 +156,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext subtitle-multicolumn-card">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte px-5">{{ block.settings.text }}</div>
