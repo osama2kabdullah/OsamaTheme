@@ -159,6 +159,8 @@
               --text-boxes-shadow-vertical-offset: {{ settings.text_boxes_shadow_vertical_offset }}px;
               --text-boxes-shadow-blur-radius: {{ settings.text_boxes_shadow_blur }}px;
 
+              --button-left-right-padding: {{ settings.buttons_left_right_padding }}px;
+              --button-top-bottom-padding: {{ settings.buttons_top_bottom_padding }}px;
               --buttons-radius: {{ settings.buttons_radius }}px;
               --buttons-radius-outset: {% if settings.buttons_radius > 0 %}{{ settings.buttons_radius | plus: settings.buttons_border_thickness }}{% else %}0{% endif %}px;
               --buttons-border-width: {% if settings.buttons_border_opacity > 0 %}{{ settings.buttons_border_thickness }}{% else %}0{% endif %}px;
@@ -213,10 +215,6 @@
               font-family: var(--font-body-family);
               font-style: var(--font-body-style);
               font-weight: var(--font-body-weight);
-            }
-
-            .button, .shopify-challenge__button, .customer button {
-              padding: {{ settings.buttons_top_bottom_padding }}px {{ settings.buttons_left_right_padding }}px
             }
 
             .button:hover, .shopify-challenge__button:hover, .customer button:hover{
