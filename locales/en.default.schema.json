@@ -18,6 +18,9 @@
         "header__shadow": {
           "content": "Shadow"
         },
+        "header__padding": {
+          "content": "Padding"
+        },
         "blur": {
           "label": "Blur"
         },
@@ -32,6 +35,12 @@
         },
         "thickness": {
           "label": "Thickness"
+        },
+        "buttons_left_right_padding": {
+          "label": "Buttons left right padding"
+        },
+        "buttons_top_bottom_padding": {
+          "label": "Buttons top bottom padding"
         },
         "opacity": {
           "label": "Opacity"
