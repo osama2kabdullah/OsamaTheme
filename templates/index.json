@@ -323,7 +323,7 @@
             "title": "<strong>Email<\/strong>",
             "text": "<p>Wij proberen altijd binnen 24 uur te reageren<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "mailto:abdullah21673@hotmail.com"
           }
         },
         "template--19119104196920__b035dff1-cb99-4b8e-b13e-cc5f44706d42-16843182396f8eb1e3-1": {
@@ -333,7 +333,7 @@
             "title": "<strong>WhatsApp<\/strong>",
             "text": "<p>Stuur ons een Appje +31 630361468<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "tel:01635307889"
           }
         },
         "template--19119104196920__b035dff1-cb99-4b8e-b13e-cc5f44706d42-16843182396f8eb1e3-2": {
@@ -343,7 +343,7 @@
             "title": "<strong>FAQ<\/strong>",
             "text": "<p>Hier vind je antwoord op de veelgestelde vragen<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/faq"
           }
         },
         "template--19119104196920__b035dff1-cb99-4b8e-b13e-cc5f44706d42-16843182396f8eb1e3-3": {
