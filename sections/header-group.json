@@ -43,12 +43,16 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "header.header {border-bottom: 1px solid #71a8da;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "always",
         "show_line_separator": true,
+        "show_search": false,
         "color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": false,
