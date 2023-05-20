@@ -44,7 +44,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header.header {border-bottom: 1px solid #71a8da;}"
+
       ],
       "settings": {
         "logo_position": "middle-left",
