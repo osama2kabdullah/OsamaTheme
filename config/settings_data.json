@@ -20,6 +20,8 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "buttons_top_bottom_padding": 2,
+    "buttons_left_right_padding": 0,
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 75,
     "buttons_radius": 14,
