@@ -215,6 +215,10 @@
               font-weight: var(--font-body-weight);
             }
 
+            .button, .shopify-challenge__button, .customer button {
+              padding: {{ settings.buttons_top_bottom_padding }}px {{ settings.buttons_left_right_padding }}px
+            }
+
             .button:hover, .shopify-challenge__button:hover, .customer button:hover{
               color: {% if settings.button_verients == 'outline'%} rgba(var(--color-button), var(--alpha-button-background)) {% else %} rgb(var(--color-button-text)) {% endif %};
               background-color: {% if settings.button_verients == 'outline'%} rgb(var(--color-button-text)) {% else %} rgba(var(--color-button), var(--alpha-button-background)) {% endif %};
