@@ -63,7 +63,7 @@
               </h2>
             {%- when 'caption' -%}
               <p
-                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                class="sub-heading image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.caption | escape }}
@@ -73,6 +73,7 @@
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
+              {{block.settings.background_color}}
               {%- if block.settings.button_label != blank -%}
                 <a
                   {% if block.settings.button_link == blank %}
@@ -80,7 +81,7 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} bg-red-500"
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
@@ -449,6 +450,36 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.image-with-text.blocks.button.settings.header.content"
+        },
+        {
+          "type": "range",
+          "id": "top_bottom_padding",
+          "min": 12,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "label": "Font size",
+          "default": 16
+        },        
+        {
+          "type": "range",
+          "id": "left_right_padding",
+          "min": 12,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "label": "Font size",
+          "default": 16
+        },        
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "t:sections.image-with-text.blocks.button.settings.color.label",
+          "default": "#E27828"
         }
       ]
     }
