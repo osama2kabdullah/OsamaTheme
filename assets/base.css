@@ -201,6 +201,14 @@
   --text-alignment: var(--blog-card-text-alignment);
 }
 
+.sub-heading {
+  color: rgba(var(--color-base-accent-2)) !important;
+}
+
+.subtitle-multicolumn-card {
+  color: rgba(var(--color-base-accent-1)) !important;
+}
+
 .contains-content-container,
 .content-container {
   --border-radius: var(--text-boxes-radius);
@@ -2330,7 +2338,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0.1rem solid var(--gradient-base-accent-2);
 }
 
 .header {
@@ -2976,7 +2984,7 @@ details-disclosure > details {
   border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
   border-radius: var(--media-radius);
   overflow: visible !important;
-  background-color: rgb(var(--color-background));
+  background-color: rgb(var(--gradient-background));
 }
 
 .global-media-settings:after {
