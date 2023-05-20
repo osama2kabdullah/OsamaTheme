@@ -37,13 +37,7 @@
 {{ 'jquery-migrate-1.2.1.min.js' | asset_url | script_tag }}
 {{ 'slick.min.js' | asset_url | script_tag }}
 <script type="text/javascript">
-  $('.slider-container').slick(
-    {
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 3
-    }
-  );
+  $('.slider-container').slick();
 </script>
 
 {% schema %}
