@@ -2928,7 +2928,7 @@ details-disclosure > details {
 @media screen and (forced-colors: active) {
   .icon {
     color: CanvasText;
-    fill: CanvasText !important;
+    /* fill: CanvasText !important; */
   }
 
   .icon-close-small path {
