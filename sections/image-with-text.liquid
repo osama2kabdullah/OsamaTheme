@@ -73,7 +73,7 @@
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
-              {{block.settings.background_color}}
+              {{ block.settings.background_color }}
               {%- if block.settings.button_label != blank -%}
                 <a
                   {% if block.settings.button_link == blank %}
@@ -81,7 +81,25 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} bg-red-500"
+                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} animate-button-{{block.settings.button_animation}}"
+
+                  style="padding: {{block.settings.top_bottom_padding}}px {{block.settings.left_right_padding}}px;
+                  {% if block.settings.background_color != blank %}
+                    background-color: {{ block.settings.background_color}};
+                  {% endif %}
+                  "
+
+                  {% if settings.button_verients == 'outline' and block.settings.background_color != blank %}
+                    onmouseover="
+                    this.style.backgroundColor='white';
+                    this.style.color='{{block.settings.background_color}}';
+                    "
+                    onmouseout="
+                    this.style.backgroundColor='{{block.settings.background_color}}';
+                    this.style.color='white';
+                    "
+                  {% endif %}
+
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
@@ -462,9 +480,9 @@
           "max": 24,
           "step": 1,
           "unit": "px",
-          "label": "Font size",
-          "default": 16
-        },        
+          "label": "t:sections.image-with-text.blocks.button.settings.top_bottom_padding.label",
+          "default": 23
+        },
         {
           "type": "range",
           "id": "left_right_padding",
@@ -472,14 +490,34 @@
           "max": 24,
           "step": 1,
           "unit": "px",
-          "label": "Font size",
-          "default": 16
-        },        
+          "label": "t:sections.image-with-text.blocks.button.settings.left_right_padding.label",
+          "default": 12
+        },
         {
           "type": "color",
           "id": "background_color",
           "label": "t:sections.image-with-text.blocks.button.settings.color.label",
           "default": "#E27828"
+        },
+        {
+          "type": "radio",
+          "id": "button_animation",
+          "label": "t:sections.multicolumn.settings.button_animation.label",
+          "options": [
+            {
+              "value": "from_bottom",
+              "label": "t:sections.multicolumn.settings.button_animation.options.options_1"
+            },
+            {
+              "value": "from_top",
+              "label": "t:sections.multicolumn.settings.button_animation.options.options_2"
+            },
+            {
+              "value": "no-animate",
+              "label": "t:sections.multicolumn.settings.button_animation.options.options_3"
+            }
+          ],
+          "default": "no-animate"
         }
       ]
     }
