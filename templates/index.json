@@ -22,9 +22,11 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "shopify:\/\/products\/black-leather-bag",
-            "top_bottom_padding": 16,
-            "left_right_padding": 16,
-            "background_color": "#E27828"
+            "top_bottom_padding": 14,
+            "left_right_padding": 34,
+            "background_color": "#121212",
+            "button_border_redius": 8,
+            "button_animation": "no-animate"
           }
         }
       },
@@ -147,10 +149,12 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
+        "color_scheme": "background-1",
         "button_label": "Button label",
         "button_link": "shopify:\/\/blogs\/blogs\/abou-iphone",
+        "top_bottom_padding": 23,
+        "left_right_padding": 12,
         "button_animation": "no-animate",
-        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -233,9 +237,11 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "shopify:\/\/pages\/contact",
-            "top_bottom_padding": 16,
-            "left_right_padding": 16,
-            "background_color": "#E27828"
+            "top_bottom_padding": 23,
+            "left_right_padding": 12,
+            "background_color": "#e27828",
+            "button_border_redius": 16,
+            "button_animation": "no-animate"
           }
         }
       },
