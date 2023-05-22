@@ -644,6 +644,14 @@ video {
   display: none;
 }
 
+.h-\[25px\] {
+  height: 25px;
+}
+
+.w-\[25px\] {
+  width: 25px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -668,11 +676,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .px-5 {

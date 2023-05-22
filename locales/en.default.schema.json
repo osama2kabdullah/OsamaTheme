@@ -2633,6 +2633,11 @@
             "label": "Center"
           }
         },
+        "button_style": {
+          "header": {
+            "content": "Button"
+          }
+        },
         "button_animation": {
           "label": "Button animation",
           "options": {

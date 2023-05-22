@@ -1385,7 +1385,7 @@ button.shopify-payment-button__button--unbranded {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   /* padding: var(--button-top-bottom-padding) var(--button-left-right-padding); */
   cursor: pointer;
   font: inherit;
@@ -2928,7 +2928,7 @@ details-disclosure > details {
 @media screen and (forced-colors: active) {
   .icon {
     color: CanvasText;
-    fill: CanvasText !important;
+    /* fill: CanvasText !important; */
   }
 
   .icon-close-small path {
