@@ -38,6 +38,8 @@
               <div class="rich-text__text rte" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
+              {%- when 'image' -%}
+                <img class="m-auto" src="{{ block.settings.image | image_url: width: 3000 }}" alt="">
             {%- when 'button' -%}
               <div
                 class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}"
@@ -268,6 +270,18 @@
           ],
           "default": "medium",
           "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "t:sections.rich-text.blocks.image.name",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.rich-text.blocks.image.settings.image.label"
         }
       ]
     },

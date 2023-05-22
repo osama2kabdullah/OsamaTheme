@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
+    "theme_name": "OsamaTheme",
     "theme_version": "9.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.logo.name",
@@ -226,6 +226,74 @@
   {
     "name": "t:settings_schema.buttons.name",
     "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.global.settings.header__verients.content"
+      },
+      {
+        "type": "radio",
+        "id": "button_verients",
+        "label": "t:settings_schema.global.settings.button_verients.label",
+        "options": [
+          {
+            "value": "outline",
+            "label": "t:settings_schema.global.settings.button_verients.options.option_1"
+          },
+          {
+            "value": "solid",
+            "label": "t:settings_schema.global.settings.button_verients.options.option_2"
+          }
+        ],
+        "default": "outline"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.global.settings.header__padding.content"
+      },
+      {
+        "type": "range",
+        "id": "buttons_top_bottom_padding",
+        "min": 0,
+        "max": 12,
+        "step": 0.5,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.buttons_top_bottom_padding.label",
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "buttons_left_right_padding",
+        "min": 0,
+        "max": 12,
+        "step": 0.5,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.buttons_left_right_padding.label",
+        "default": 1
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.global.settings.header__padding.content"
+      },
+      {
+        "type": "range",
+        "id": "buttons_top_bottom_padding",
+        "min": 0,
+        "max": 12,
+        "step": 0.5,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.buttons_top_bottom_padding.label",
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "buttons_left_right_padding",
+        "min": 0,
+        "max": 12,
+        "step": 0.5,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.buttons_left_right_padding.label",
+        "default": 1
+      },
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"

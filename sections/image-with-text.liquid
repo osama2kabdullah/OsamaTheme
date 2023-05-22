@@ -63,7 +63,7 @@
               </h2>
             {%- when 'caption' -%}
               <p
-                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                class="sub-heading image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.caption | escape }}
@@ -73,6 +73,7 @@
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
+              {{ block.settings.background_color }}
               {%- if block.settings.button_label != blank -%}
                 <a
                   {% if block.settings.button_link == blank %}
@@ -80,7 +81,26 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} animate-button-{{block.settings.button_animation}}"
+
+                  style="padding: {{block.settings.top_bottom_padding}}px {{block.settings.left_right_padding}}px;
+                  border-radius: {{block.settings.button_border_redius}}px;
+                  {% if block.settings.background_color != blank %}
+                    background-color: {{ block.settings.background_color}};
+                  {% endif %}
+                  "
+
+                  {% if settings.button_verients == 'outline' and block.settings.background_color != blank %}
+                    onmouseover="
+                    this.style.backgroundColor='white';
+                    this.style.color='{{block.settings.background_color}}';
+                    "
+                    onmouseout="
+                    this.style.backgroundColor='{{block.settings.background_color}}';
+                    this.style.color='white';
+                    "
+                  {% endif %}
+
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
@@ -350,7 +370,7 @@
               "label": "t:sections.all.heading_size.options__3.label"
             }
           ],
-          "default": "h1",
+          "default": "h0",
           "label": "t:sections.all.heading_size.label"
         }
       ]
@@ -428,7 +448,7 @@
               "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__2.label"
             }
           ],
-          "default": "body",
+          "default": "subtitle",
           "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
         }
       ]
@@ -449,6 +469,66 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.image-with-text.blocks.button.settings.header.content"
+        },
+        {
+          "type": "range",
+          "id": "top_bottom_padding",
+          "min": 12,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "label": "t:sections.image-with-text.blocks.button.settings.top_bottom_padding.label",
+          "default": 23
+        },
+        {
+          "type": "range",
+          "id": "left_right_padding",
+          "min": 12,
+          "max": 34,
+          "step": 1,
+          "unit": "px",
+          "label": "t:sections.image-with-text.blocks.button.settings.left_right_padding.label",
+          "default": 12
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "t:sections.image-with-text.blocks.button.settings.color.label",
+          "default": "#E27828"
+        },
+        {
+          "type": "range",
+          "id": "button_border_redius",
+          "min": 0,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "t:settings_schema.global.settings.corner_radius.label",
+          "default": 12
+        },
+        {
+          "type": "radio",
+          "id": "button_animation",
+          "label": "t:sections.multicolumn.settings.button_animation.label",
+          "options": [
+            {
+              "value": "from_bottom",
+              "label": "t:sections.multicolumn.settings.button_animation.options.options_1"
+            },
+            {
+              "value": "from_top",
+              "label": "t:sections.multicolumn.settings.button_animation.options.options_2"
+            },
+            {
+              "value": "no-animate",
+              "label": "t:sections.multicolumn.settings.button_animation.options.options_3"
+            }
+          ],
+          "default": "no-animate"
         }
       ]
     }

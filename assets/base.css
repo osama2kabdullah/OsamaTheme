@@ -133,6 +133,10 @@
   --color-card-hover: var(--color-base-background-1);
 }
 
+.color-accent-1 {
+  /* color: red; */
+}
+
 .color-accent-1,
 .color-accent-2 {
   --color-card-hover: var(--color-base-solid-button-labels);
@@ -195,6 +199,14 @@
   --shadow-visible: var(--blog-card-shadow-visible);
   --image-padding: var(--blog-card-image-padding);
   --text-alignment: var(--blog-card-text-alignment);
+}
+
+.sub-heading {
+  color: rgba(var(--color-base-accent-2)) !important;
+}
+
+.subtitle-multicolumn-card {
+  color: rgba(var(--color-base-accent-1)) !important;
 }
 
 .contains-content-container,
@@ -1373,7 +1385,8 @@ button.shopify-payment-button__button--unbranded {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 0 3rem;
+  /* padding: 2rem 0; */
+  /* padding: var(--button-top-bottom-padding) var(--button-left-right-padding); */
   cursor: pointer;
   font: inherit;
   font-size: 1.5rem;
@@ -1384,6 +1397,19 @@ button.shopify-payment-button__button--unbranded {
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
+
+.animate-button-from_bottom {
+  position: fixed;
+}
+.animate-button-from_top {
+  position: fixed;
+}
+
+/*
+1. --color-button
+2. --color-button-text
+3. --alpha-button-background
+*/
 
 .button:before,
 .shopify-challenge__button:before,
@@ -2320,7 +2346,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0.1rem solid var(--gradient-base-accent-2);
 }
 
 .header {
@@ -2405,7 +2431,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__heading,
 .header__heading-link {
-  grid-area: heading;
+  /* grid-area: heading; */
   justify-self: center;
 }
 
@@ -2902,7 +2928,7 @@ details-disclosure > details {
 @media screen and (forced-colors: active) {
   .icon {
     color: CanvasText;
-    fill: CanvasText !important;
+    /* fill: CanvasText !important; */
   }
 
   .icon-close-small path {
@@ -2966,7 +2992,7 @@ details-disclosure > details {
   border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
   border-radius: var(--media-radius);
   overflow: visible !important;
-  background-color: rgb(var(--color-background));
+  background-color: rgb(var(--gradient-background));
 }
 
 .global-media-settings:after {
