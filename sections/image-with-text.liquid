@@ -84,6 +84,7 @@
                   class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} animate-button-{{block.settings.button_animation}}"
 
                   style="padding: {{block.settings.top_bottom_padding}}px {{block.settings.left_right_padding}}px;
+                  border-radius: {{block.settings.button_border_redius}}px;
                   {% if block.settings.background_color != blank %}
                     background-color: {{ block.settings.background_color}};
                   {% endif %}
@@ -487,7 +488,7 @@
           "type": "range",
           "id": "left_right_padding",
           "min": 12,
-          "max": 24,
+          "max": 34,
           "step": 1,
           "unit": "px",
           "label": "t:sections.image-with-text.blocks.button.settings.left_right_padding.label",
@@ -498,6 +499,16 @@
           "id": "background_color",
           "label": "t:sections.image-with-text.blocks.button.settings.color.label",
           "default": "#E27828"
+        },
+        {
+          "type": "range",
+          "id": "button_border_redius",
+          "min": 0,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "t:settings_schema.global.settings.corner_radius.label",
+          "default": 12
         },
         {
           "type": "radio",
