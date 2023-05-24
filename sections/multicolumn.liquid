@@ -208,9 +208,9 @@
       {%- endif -%}
     </slider-component>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
-      {%- if section.settings.button_label != blank -%}
+      {% comment %} {%- if section.settings.button_label != blank -%}
         <a
-          class="button button--primary animate-button-{{section.settings.button_animation}}"
+          class="button button--primary"
           style="padding: {{section.settings.top_bottom_padding}}px {{section.settings.left_right_padding}}px;"
           {% if section.settings.button_link == blank %}
             role="link" aria-disabled="true"
@@ -218,9 +218,35 @@
             href="{{ section.settings.button_link }}"
           {% endif %}
         >
-          {{ section.settings.button_label | escape }}
+          <button class="animate-button-{{section.settings.button_animation}}">
+            <div>
+              {{ section.settings.button_label | escape }}
+            </div>
+          </button>
         </a>
-      {%- endif -%}
+      {%- endif -%} {% endcomment %}
+
+    <a
+    {% if section.settings.button_link == blank %}
+      role="link" aria-disabled="true"
+    {% else %}
+      href="{{ section.settings.button_link }}"
+    {% endif %}
+    >
+      <button
+        class="
+        {% if section.settings.button_animation == 'from_bottom' %}
+          animate-button-{{section.settings.button_animation}}
+        {% else %}
+          button button--primary
+        {% endif %}
+        " data-hover="{{section.settings.button_label}}"
+        style="padding: {{section.settings.top_bottom_padding}}px {{section.settings.left_right_padding}}px;"
+      >
+        <div>{{section.settings.button_label}}</div>
+      </button>
+    </a>
+
     </div>
   </div>
 </div>
@@ -488,10 +514,6 @@
         {
           "value": "from_bottom",
           "label": "t:sections.multicolumn.settings.button_animation.options.options_1"
-        },
-        {
-          "value": "from_top",
-          "label": "t:sections.multicolumn.settings.button_animation.options.options_2"
         },
         {
           "value": "no-animate",
