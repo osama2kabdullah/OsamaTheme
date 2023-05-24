@@ -154,7 +154,7 @@
         "button_link": "shopify:\/\/blogs\/blogs\/abou-iphone",
         "top_bottom_padding": 23,
         "left_right_padding": 12,
-        "button_animation": "no-animate",
+        "button_animation": "from_bottom",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
